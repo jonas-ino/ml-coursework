@@ -11,7 +11,7 @@ Python, scikit-learn, pandas, NumPy, matplotlib, PyTorch
 ## 1. Airbnb Price Prediction
 Task was to predict nightly price for ~8600 listings within Melbourne using 15 features. Focussed on Regression.
 
-Models: Linear, Ridge, and Lasso Regerssion on raw, standard-scaled, and power-transformed feature sets, looking at the target both raw and log-scaled.
+Models: Linear, Ridge, and Lasso Regression on raw, standard-scaled, and power-transformed feature sets, looking at the target both raw and log-scaled.
 
 Result: Optimal result was found using Linear Regression, with standard-scaled features, and a log-transformed target (R2 0.43, MAE ~$41).
 Ridge and Lasso gave no meaningful improvement. Since there was no dominating coefficient, there was little overfitting to regularise.
